@@ -1,0 +1,42 @@
+[
+    {
+        "text": "Hey there!",
+        "id": 1388534400000,
+        "author": "Pete Hunt"
+    },
+    {
+        "text": "React is *great*!",
+        "id": 1420070400000,
+        "author": "Paul O\u2019Shannessy"
+    },
+    {
+        "text": "Yay for React",
+        "id": 1420070400001,
+        "author": "John Guanzon"
+    },
+    {
+        "text": "Test test test",
+        "id": 1471998608911,
+        "author": "John Guanzon"
+    },
+    {
+        "text": "More tests",
+        "id": 1471998674396,
+        "author": "CJ Craig"
+    },
+    {
+        "text": "Testing names",
+        "id": 1471998684974,
+        "author": "Josiah Bartlett"
+    },
+    {
+        "text": "Optimized",
+        "id": 1471998971012,
+        "author": "Josh"
+    },
+    {
+        "text": "Yay there's something cool!",
+        "id": 1472077151675,
+        "author": "John Guan Silver"
+    }
+]

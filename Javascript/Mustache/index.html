@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Mustache.js Inline Method</title>
+    <script type="text/javascript" src="mustache.js" ></script>
+    <script id="sample_template" type="text/html">
+      <img src={{image}} class="img-circle" width="100" height="100"/><h1 style="margin:auto;padding: 0px 0;float:right">{{name}} is a {{occupation}}</h1><br>
+    </script>
+    <script type='text/javascript'>
+      var view = [{
+        image: "http://diwecs.com/wp-content/uploads/2016/06/George.jpg",
+        name : "Joe",
+        occupation : "Web Developer"
+      },
+      {
+        image: "http://diwecs.com/wp-content/uploads/2016/06/George.jpg",
+        name : "Joe",
+        occupation : "Web Developer"
+      },
+      {
+        image: "http://diwecs.com/wp-content/uploads/2016/06/George.jpg",
+        name : "Joe",
+        occupation : "Web Developer"
+      },
+      {
+        image: "http://diwecs.com/wp-content/uploads/2016/06/George.jpg",
+        name : "Joe",
+        occupation : "Web Developer"
+      }
+    ];
+      function loadtemp(){
+        var template = document.getElementById('sample_template').innerHTML;
+        var output = Mustache.render(template, view[0]);
+        var i;
+        // for(i=1;i< ;i++){
+        //   output = output + Mustache.render(template, view[i]);
+        // }
+        document.getElementById('person').innerHTML = output;
+      }
+    </script>
+    <!-- <script>
+      var view = {
+        name : "Joe",
+        occupation : "Web Developer"
+      };
+
+      function loadtemp(){
+        var output = Mustache.render("{{name}} is a  {{occupation}}", view);
+        document.getElementById('person').innerHTML = output;
+      }
+    </script> -->
+  </head>
+  <body onload="loadtemp()" >
+    <a href="test.html" style="font-size: 30px">
+      &#9776;
+    </a>
+    <p id="person"></p>
+  </body>
+</html>

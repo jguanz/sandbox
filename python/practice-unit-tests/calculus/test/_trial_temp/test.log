@@ -1,0 +1,5 @@
+2016-08-08 11:21:21-0700 [-] Log opened.
+2016-08-08 11:21:21-0700 [-] --> calculus.test.test_remote_1.RemoteCalculationTestCase.test_add <--
+2016-08-08 11:21:21-0700 [-] --> calculus.test.test_remote_1.RemoteCalculationTestCase.test_divide <--
+2016-08-08 11:21:21-0700 [-] --> calculus.test.test_remote_1.RemoteCalculationTestCase.test_multiply <--
+2016-08-08 11:21:21-0700 [-] --> calculus.test.test_remote_1.RemoteCalculationTestCase.test_subtract <--

@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <style>
+      #googleMap {
+      width: 50%; /* Span the entire width of the screen */
+      height: 200px; /* Set the height to 400 pixels */
+      /*-webkit-filter: grayscale(100%);*/
+      "featureType": "landscape"
+      featureType: water;
+      filter: grayscale(100%); /* Change the color of the map to black and white */
+      }
+      a.test {
+          font-weight: bold;
+      }
+    </style>
+
+</head>
+<body>
+    <a href="http://jquery.com/">jQuery</a>
+    <div id="googleMap"></div>
+    <script src="jquery.js"></script>
+    <script>
+
+    $( "a" ).addClass( "test" );
+
+    $.get( "myhtmlpage.html", myCallBack );
+
+    $( document ).ready(function() {
+
+        $( "a" ).click(function( event ) {
+
+            alert( "Thanks for visiting!" );
+            event.preventDefault();
+            $(this).hide("slow");
+        });
+
+    });
+
+    $( "a" ).removeClass( "test" );
+    </script>
+      <!-- Add Google Maps -->
+      <script src="http://maps.googleapis.com/maps/api/js"></script>
+      <script>
+      var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+      function initialize() {
+      var mapProp = {
+      center:myCenter,
+      zoom:12,
+      scrollwheel:true,
+      draggable:true,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+          }
+      };
+
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+      var marker = new google.maps.Marker({
+      position:myCenter,
+      });
+
+      marker.setMap(map);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</body>
+</html>

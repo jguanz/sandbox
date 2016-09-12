@@ -1,0 +1,9 @@
+2016-08-05 16:21:35-0700 [-] Log opened.
+2016-08-05 16:21:35-0700 [-] --> calculus.test.test_base_3.CalculationTestCase.test_add <--
+2016-08-05 16:21:35-0700 [-] --> calculus.test.test_base_3.CalculationTestCase.test_divide <--
+2016-08-05 16:21:35-0700 [-] --> calculus.test.test_base_3.CalculationTestCase.test_errorAdd <--
+2016-08-05 16:21:35-0700 [-] --> calculus.test.test_base_3.CalculationTestCase.test_errorDivide <--
+2016-08-05 16:21:35-0700 [-] --> calculus.test.test_base_3.CalculationTestCase.test_errorMultiply <--
+2016-08-05 16:21:35-0700 [-] --> calculus.test.test_base_3.CalculationTestCase.test_errorSubtract <--
+2016-08-05 16:21:35-0700 [-] --> calculus.test.test_base_3.CalculationTestCase.test_multiply <--
+2016-08-05 16:21:35-0700 [-] --> calculus.test.test_base_3.CalculationTestCase.test_subtract <--
